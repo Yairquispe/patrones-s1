@@ -1,0 +1,13 @@
+package demo1;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+//clase que maneja la persistencia 
+public class repositoriolibro {
+    public void guardardatos(libro libro){
+        System.out.println("guardando"+libro.getTitulo()+"en la base de datos...");
+    }
+    
+}
