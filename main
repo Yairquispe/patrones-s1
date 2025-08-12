@@ -1,0 +1,23 @@
+package demo1;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class NewMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //creamos libro
+        libro libro= new libro(" el quijote "," miguel servante ",1663); 
+        //imprimir libro 
+        empresoralibro impresora= new empresoralibro();
+        impresora.imprimir(libro); 
+        repositoriolibro repo = new repositoriolibro();
+        repo.guardardatos(libro);
+        
+    }
+    
+}
