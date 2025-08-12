@@ -1,0 +1,14 @@
+package demo1;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class empresoralibro  {
+        public void imprimir(libro libro){
+            System.out.println("titulo:"+libro.getTitulo()+ 
+                    "autor:"+ libro.getAutor()+ 
+                    " año: "+ libro.getAño());
+    }
+    
+}
