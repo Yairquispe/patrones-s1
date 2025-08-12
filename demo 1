@@ -1,0 +1,20 @@
+package demo1;
+
+
+public class librox {
+    private String titulo; 
+    private String autor; 
+    private int año; 
+
+    public librox(String titulo, String autor, int año) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.año = año;
+    }
+    public void imprimirlibro(){
+            System.out.println("titulo "+titulo+ "autor "+ autor+ " año "+ año);
+    }
+    public void guardardatos(){
+        System.out.println("guardadno en base de datos... ");
+    }
+}
